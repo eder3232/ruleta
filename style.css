@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+.options {
+  margin: 20px;
+}
+.rojo {
+  background-color: tomato;
+  color: white;
+}
+
+.verde {
+  background-color: green;
+  color: white;
+}
+
+.negro {
+  background-color: grey;
+  color: white;
+}
+
+.mayor {
+  background-color: rgb(141, 0, 99);
+  color: white;
+}
+
+.menor {
+  background-color: rgb(206, 0, 206);
+  color: white;
+}
+
+.par {
+  border: 2px solid #000;
+}
+
+.inpar {
+  border: 2px dotted #000;
+}
+
+p {
+  text-align: center;
+}
